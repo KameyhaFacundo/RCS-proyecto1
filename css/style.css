@@ -10,6 +10,30 @@ h1 {
   height: 500px;
 }
 
+.urlnotfound-number{
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.tuc-color-lightblue{
+  color: #00adef;
+}
+
+.urlnotfound-bg-tuc{
+  background-image: url(/img/bg-urlnotfound.jpg);
+}
+
+.draw-gps-tuc{
+  width: 45%;
+}
+
+.a-urlnotfound-tuc{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4em;
+  color: #cd8a5b;
+}
+
 @media screen and (min-width: 768px) {
   .carousel img {
     height: 65vh;
