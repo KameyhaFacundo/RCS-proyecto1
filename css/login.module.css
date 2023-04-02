@@ -1,0 +1,30 @@
+.login-img {
+  width: 65%;
+}
+
+form {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-img {
+    width: 40%;
+  }
+  form {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-container {
+    height: 80%;
+    border-left: 1px solid #ddd;
+  }
+  .login-img {
+    width: 300px;
+    height: 300px;
+  }
+  form {
+    width: 450px;
+  }
+}

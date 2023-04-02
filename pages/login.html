@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Css Custom -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Integracion FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/c70ff35609.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+  </head>
+  <body class="vw-100 vh-100">
+    <main class="w-100 h-100">
+      <div
+        class="h-100 d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 container"
+      >
+        <article
+          class="img-container ps-lg-5 order-lg-2 d-flex align-items-center justify-content-center"
+        >
+          <img src="../img/MOCK UP_vertical.png" class="login-img" alt="..." />
+        </article>
+        <form
+          class="gap-3 order-lg-1 pe-lg-5 d-flex flex-column justify-content-center"
+        >
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Usuario</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Contraseña</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Enviar</button>
+          <a href="#" class="text-center">Olvidé mi contraseña</a>
+          <hr />
+          <article class="gap-3 d-flex flex-column">
+            <button type="submit" class="btn btn-warning">Google</button>
+            <button type="submit" class="btn btn-light">Facebook</button>
+          </article>
+        </form>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
