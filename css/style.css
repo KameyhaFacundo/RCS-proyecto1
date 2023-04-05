@@ -36,6 +36,32 @@ h1 {
   color: #cd8a5b;
 }
 
+.logo-footer{
+  width: 18em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #f8f9fa;
+}
+
+.footer h3 {
+  color: #343a40;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #6c757d;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
 @media screen and (min-width: 768px) {
   .carousel img {
     height: 65vh;
