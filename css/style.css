@@ -1,4 +1,5 @@
 @import url("./login.module.css");
+@import url("./galeria.css");
 
 .carousel img {
   height: 50vh;
