@@ -1,9 +1,5 @@
 @import url("./login.module.css");
 
-h1 {
-  color: brown;
-}
-
 .carousel img {
   height: 50vh;
 }
@@ -12,24 +8,24 @@ h1 {
   height: 500px;
 }
 
-.urlnotfound-number{
+.urlnotfound-number {
   font-weight: bold;
   font-size: 100px;
 }
 
-.tuc-color-lightblue{
+.tuc-color-lightblue {
   color: #00adef;
 }
 
-.urlnotfound-bg-tuc{
+.urlnotfound-bg-tuc {
   background-image: url(/img/bg-urlnotfound.jpg);
 }
 
-.draw-gps-tuc{
+.draw-gps-tuc {
   width: 45%;
 }
 
-.a-urlnotfound-tuc{
+.a-urlnotfound-tuc {
   text-decoration: none;
   font-weight: 700;
   font-size: 1.4em;
