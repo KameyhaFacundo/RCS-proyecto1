@@ -1,17 +1,17 @@
 @import url("./login.module.css");
-<<<<<<< HEAD
 @import url("./entrada.module.css");
-=======
 @import url("./galeria.css");
-@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Poppins:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&display=swap");
 
 :root {
   --primary: #cd8a5b;
   --secondary: #00adef;
   --third: #ffffff;
 }
->>>>>>> 42a6d6afad59151818bbf821905a08992d101693
+
+.logo {
+  height: 48px;
+}
 
 h1 {
   font-family: "Nunito Sans", sans-serif;
