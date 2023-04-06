@@ -1,5 +1,20 @@
 @import url("./login.module.css");
 @import url("./galeria.css");
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+:root {
+  --primary: #cd8a5b;
+  --secondary: #00adef;
+  --third: #ffffff;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
 
 .carousel img {
   height: 50vh;
@@ -33,7 +48,7 @@
   color: #cd8a5b;
 }
 
-.logo-footer{
+.logo-footer {
   width: 18em;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -57,7 +72,6 @@
   font-size: 16px;
   line-height: 24px;
 }
-
 
 @media screen and (min-width: 768px) {
   .carousel img {
