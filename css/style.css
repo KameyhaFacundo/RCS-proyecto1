@@ -1,8 +1,23 @@
 @import url("./login.module.css");
+<<<<<<< HEAD
 @import url("./entrada.module.css");
+=======
+@import url("./galeria.css");
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+:root {
+  --primary: #cd8a5b;
+  --secondary: #00adef;
+  --third: #ffffff;
+}
+>>>>>>> 42a6d6afad59151818bbf821905a08992d101693
 
 h1 {
-  color: brown;
+  font-family: "Nunito Sans", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
 }
 
 .carousel img {
@@ -35,6 +50,31 @@ h1 {
   font-weight: 700;
   font-size: 1.4em;
   color: #cd8a5b;
+}
+
+.logo-footer {
+  width: 18em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #f8f9fa;
+}
+
+.footer h3 {
+  color: #343a40;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #6c757d;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 @media screen and (min-width: 768px) {
