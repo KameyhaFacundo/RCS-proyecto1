@@ -20,6 +20,18 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+.navbar {
+  background: #efe6e6;
+}
+
+.suscripcion {
+  background-color: var(--primary);
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
 .carousel img {
   height: 50vh;
 }
