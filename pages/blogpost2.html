@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Entrada de blog</title>
+    <title>Cerro San Javier || Tucumán Turismo</title>
     <!-- Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -21,30 +21,338 @@
     ></script>
   </head>
   <body>
-    <main>
+    <nav
+      class="navbar navbar-expand-md navbar-expand-lg navbar-light fixed-top sticky-top py-3"
+    >
+      <!-- class="navbar navbar-expand-md navbar-expand-lg navbar-light  py-3" -->
+      <div class="container">
+        <a href="../index.html">
+          <img src="../img/MOCK UP.png" alt="logo" class="logo" />
+        </a>
+
+        <!-- src="https://i.postimg.cc/dLmTyT8D/asdasd.jpg" -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./pages/galeria.html"
+                >Galeria</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./pages/nosotros.html"
+                >Acerca de nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./pages/contactos"
+                >Contactos</a
+              >
+            </li>
+            <li class="mx-1 mb-sm-1">
+              <a
+                href="./pages/suscripcion.html"
+                class="btn btn-lg btn-sm active suscripcion p-2"
+                role="button"
+                aria-pressed="true"
+                >Suscripción</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pages/login.html"
+                class="btn btn-primary btn-lg btn-sm active p-2"
+                role="button"
+                aria-pressed="true"
+                >Iniciar sesión</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main
+      class="main-blog-fix-width p-3 d-flex flex-column justify-content-center align-items-center"
+    >
       <section>
-        <article>
-          <h1>Título de la entrada</h1>
-          <img src="asd.jpg" alt="imagen" />
-          <p><time datetime="2023-04-02">02 de abril de 2023</time></p>
-          <hr>
+        <article
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1 class="blog-h1-weight tuc-color-lightblue">Cerro San Javier</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            similique obcaecati fugiat, sed fugit ut! Non odio animi ipsum
-            deleniti similique fuga exercitationem! Fugiat modi eligendi dolore
-            sint, sed laudantium ex voluptatem ut nemo repudiandae laboriosam
-            facere quidem est quos, consequuntur officiis pariatur labore
-            repellat, temporibus quasi dolorem voluptas esse!
+            <time datetime="2023-04-02">04 de abril de 2023</time> | Por Tucuman
+            Turismo
           </p>
-          <p>iframe video</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda officiis excepturi vel ducimus eveniet fugiat inventore quae iste perferendis, vero eius adipisci numquam fugit alias obcaecati voluptates rem sed! Perferendis facilis possimus in ducimus necessitatibus distinctio, fugiat rem modi sed? Aspernatur molestiae molestias beatae accusantium, delectus illum laudantium voluptatibus mollitia.</p>
-          <img src="/img/bg-urlnotfoun.jpg" alt="foto">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita recusandae sapiente blanditiis, possimus rem quis consectetur eos sequi pariatur dicta, et quisquam saepe consequuntur rerum minus distinctio. Culpa, numquam dicta.</p>
+          <img
+            src="/img/san javier.jpg"
+            alt="casahistorica"
+            class="blog-width-90"
+          />
+          <hr />
+          <p class="blog-width-90 text-format-size-lineheigth">
+            Desde las sierras de San Javier se puede tener una vista panorámica
+            de toda la ciudad de San Miguel de Tucumán, a tan sólo 25 kilómetros
+            de distancia. Esta pequeña campiña serrana de ondulantes lomadas
+            cubiertas de un verde tapiz, cuenta con numerosas residencias de
+            veraneo y encierra uno de los paisajes más característicos de la
+            provincia.
+          </p>
+          <p class="blog-width-90 text-format-size-lineheigth">
+            Un imperdible es la monumental estatua del Cristo Bendicente, obra
+            de Juan Carlos Iramain, que con sus 28 metros de altura, se eleva
+            entre los cerros y constituye un sello distintivo de los tucumanos.
+            La nueva obra en torno al Cristo Bendicente despliega una serie de
+            nuevas oportunidades de aprovechar los atractivos del lugar. Nuevos
+            miradores, merenderos, locales comerciales, estacionamiento, un
+            anfiteatro natural, el nuevo espectáculo de mapping “Imagen, luz y
+            sonido” y la pronta inauguración de un restaurante, son algunas de
+            las renovadas propuestas que San Javier tiene para el turista.
+          </p>
+          <iframe
+            width="90%"
+            height="700px"
+            src="https://www.youtube.com/embed/UvSg_2vqe80"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            class="p-5"
+          ></iframe>
+          <p class="blog-width-90 text-format-size-lineheigth">
+           La temperatura es muy agradable durante todo el año, sobre todo en verano debido a que se transforma en un oasis en relación con las altas temperaturas existentes algunos kilómetros "abajo" en San Miguel de Tucumán. En invierno, se dan esporádicas nevadas.
+          </p>
+          <p class="blog-width-90 text-format-size-lineheigth">
+            Sobre la dorsal de la sierra, cerca de Yerba Buena, se encuentra la villa veraniega de San Javier, a unos 1200 m s. n. m. Allí se alza el Cristo Bendicente,​ una escultura de 28 m de altura y 135,8 tn de peso, realizada por el artista tucumano Juan Carlos Iramain, e inaugurada en 1942, año de fundación de la Villa. Debido a su tamaño, se puede apreciar desde la ciudad.
+          </p>
+          <img
+            src="/img/sanjavier2.jpg"
+            alt="foto"
+            class="blog-width-90 p-5"
+          />
         </article>
       </section>
-      <hr>
-     
+      <hr />
+      <section
+        id="carouselExampleFade"
+        class="carousel slide carousel-dark w-100 mx-auto"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-group mx-auto">
+              <article class="card">
+                <div class="card-body">
+                  <div class="card-top d-flex gap-3 align-items-center mb-3">
+                    <img
+                      src="https://mi.econ.uba.ar/assets/images/user-avatar-empty.png"
+                      alt=""
+                      class="rounded rounded-circle user-img"
+                    />
+                    <h5 class="card-title mb-0">Jonathan Carrasco</h5>
+                  </div>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div class="card-text">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="card-body">
+                  <div class="card-top d-flex gap-3 align-items-center mb-3">
+                    <img
+                      src="https://mi.econ.uba.ar/assets/images/user-avatar-empty.png"
+                      alt=""
+                      class="rounded rounded-circle user-img"
+                    />
+                    <h5 class="card-title mb-0">Facundo Kameyha</h5>
+                  </div>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <div class="card-text">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="card-body">
+                  <div class="card-top d-flex gap-3 align-items-center mb-3">
+                    <img
+                      src="https://mi.econ.uba.ar/assets/images/user-avatar-empty.png"
+                      alt=""
+                      class="rounded rounded-circle user-img"
+                    />
+                    <h5 class="card-title mb-0">Ignacio Brandan</h5>
+                  </div>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <div class="card-text">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-group mx-auto">
+              <article class="card">
+                <div class="card-body">
+                  <div class="card-top d-flex gap-3 align-items-center mb-3">
+                    <img
+                      src="https://mi.econ.uba.ar/assets/images/user-avatar-empty.png"
+                      alt=""
+                      class="rounded rounded-circle user-img"
+                    />
+                    <h5 class="card-title mb-0">Matias Ortega</h5>
+                  </div>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div class="card-text">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="card-body">
+                  <div class="card-top d-flex gap-3 align-items-center mb-3">
+                    <img
+                      src="https://mi.econ.uba.ar/assets/images/user-avatar-empty.png"
+                      alt=""
+                      class="rounded rounded-circle user-img"
+                    />
+                    <h5 class="card-title mb-0">Diego Grassino</h5>
+                  </div>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <div class="card-text">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </article>
+              <article class="card">
+                <div class="card-body">
+                  <div class="card-top d-flex gap-3 align-items-center mb-3">
+                    <img
+                      src="https://mi.econ.uba.ar/assets/images/user-avatar-empty.png"
+                      alt=""
+                      class="rounded rounded-circle user-img"
+                    />
+                    <h5 class="card-title mb-0">Jony Plodzien</h5>
+                  </div>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <div class="card-text">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev d-none d-lg-flex"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next d-none d-lg-flex"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="/img/MOCK UP.png" class="logo-footer" alt="logo-tuc" />
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <h3>Seguinos!</h3>
+              <a href="./pages/error404page.html">Youtube</a>
+              <a href="./pages/error404page.html">Facebook</a>
+              <a href="./pages/error404page.html">Instagram</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <h3>Columna 3</h3>
+            <p>Contenido de la columna 3</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

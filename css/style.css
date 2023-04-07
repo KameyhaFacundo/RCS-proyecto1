@@ -1,7 +1,7 @@
 @import url("./login.module.css");
 @import url("./entrada.module.css");
 @import url("./galeria.css");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Nunito+Sans:ital,wght@0,200;0,600;0,800;1,200;1,600;1,800&display=swap');
 
 :root {
   --primary: #cd8a5b;
@@ -65,7 +65,7 @@ li a:hover {
 }
 
 .logo-footer {
-  width: 18em;
+  width: 16em;
   padding-top: 5%;
   padding-bottom: 5%;
   padding-left: 5%;
@@ -87,6 +87,44 @@ li a:hover {
   color: #6c757d;
   font-size: 16px;
   line-height: 24px;
+}
+
+.blog-width-90{
+  width: 90%;
+}
+
+.main-blog-fix-width{
+  width: 100%!important;
+}
+
+.blog-h1-weight{
+  font-family: 'Nunito Sans';
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.text-format-size-lineheigth{
+  font-size: 1.4rem;
+  font-family: 'Nunito Sans';
+  text-align: justify;
+}
+.logo-five{
+  width: 20%;
+  border-radius: 20px;
+}
+
+.link-modif-home{
+  font-size: 1.2rem;
+  color: #cd8a5b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-modif-home:hover{
+  color: #00adef;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
