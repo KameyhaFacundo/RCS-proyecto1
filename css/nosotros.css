@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 
+:root {
+  --primary: #cd8a5b;
+  --secondary: #00adef;
+  --third: #ffffff;
+}
+
 h1 {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -17,13 +23,27 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+.navbar {
+  background: #efe6e6;
+}
+
+.suscripcion {
+  background-color: var(--primary);
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+.logo {
+  height: 48px;
+}
 
 .image {
   width: 70%;
   height: auto;
 }
 
-.perfil {
+.perfil-nosotros {
   background: rgba(0, 0, 0, 0.08);
 }
 
@@ -36,13 +56,13 @@ header {
   background: url(../img/cadillal.jpg);
 }
 
-.logo {
+.logo-nosotros {
   width: 20%;
   height: auto;
 }
 
 footer {
-  background: #6f6767;
+  background: #efe6e6;
 }
 
 @media screen and (min-width: 768px) {

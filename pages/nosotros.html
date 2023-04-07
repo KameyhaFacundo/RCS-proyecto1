@@ -14,6 +14,7 @@
     <title>Acerca de nosotros</title>
     <!-- Css Custom -->
     <link rel="stylesheet" href="../css/nosotros.css" />
+
     <!-- Integracion FontAwesome -->
     <script
       src="https://kit.fontawesome.com/c70ff35609.js"
@@ -21,6 +22,75 @@
     ></script>
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-md navbar-expand-lg navbar-light fixed-top sticky-top py-3"
+    >
+      <div class="container">
+        <a href="./index.html">
+          <img src="../img/MOCK UP.png" alt="logo" class="logo" />
+        </a>
+
+        <!-- src="https://i.postimg.cc/dLmTyT8D/asdasd.jpg" -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./pages/galeria.html"
+                >Galeria</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./pages/nosotros.html"
+                >Acerca de nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./pages/contactos"
+                >Contactos</a
+              >
+            </li>
+            <li class="mx-1 mb-sm-1">
+              <a
+                href="./pages/suscripcion.html"
+                class="btn btn-lg btn-sm active suscripcion p-2"
+                role="button"
+                aria-pressed="true"
+                >Suscripción</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pages/login.html"
+                class="btn btn-primary btn-lg btn-sm active p-2"
+                role="button"
+                aria-pressed="true"
+                >Iniciar sesión</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header class="mt-0">
       <h1 class="fw-bolder p-5">Quienes somos</h1>
       <p class="fw-bolder px-3">
@@ -31,7 +101,7 @@
       </p>
     </header>
     <main class="m-lg-5">
-      <div class="card m-3 m-lg-5 text-center perfil">
+      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
         <div class="row text-center">
           <div class="col-md-5 col-lg-5">
             <img
@@ -66,7 +136,7 @@
         </div>
       </div>
 
-      <div class="card m-3 m-lg-5 text-center perfil">
+      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
         <div class="row text-center">
           <div class="col-md-5 col-lg-5">
             <img
@@ -101,7 +171,7 @@
         </div>
       </div>
 
-      <div class="card m-3 m-lg-5 text-center perfil">
+      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
         <div class="row text-center">
           <div class="col-md-5 col-lg-5">
             <img
@@ -136,7 +206,7 @@
         </div>
       </div>
 
-      <div class="card m-3 m-lg-5 text-center perfil">
+      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
         <div class="row text-center">
           <div class="col-md-5 col-lg-5">
             <img
@@ -174,7 +244,7 @@
 
     <footer class="mt-0 p-2 text-center">
       <a href="../index.html">
-        <img class="logo" src="../img/logo22.jpg" alt="logo" />
+        <img class="logo-nosotros" src="../img/logo-gris.jpg" alt="logo" />
       </a>
     </footer>
     <script

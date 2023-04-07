@@ -1,7 +1,7 @@
 @import url("./login.module.css");
 @import url("./entrada.module.css");
 @import url("./galeria.css");
-@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Nunito+Sans:ital,wght@0,200;0,600;0,800;1,200;1,600;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Imprima&family=Nunito+Sans:ital,wght@0,200;0,600;0,800;1,200;1,600;1,800&display=swap");
 
 :root {
   --primary: #cd8a5b;
@@ -89,39 +89,39 @@ li a:hover {
   line-height: 24px;
 }
 
-.blog-width-90{
+.blog-width-90 {
   width: 90%;
 }
 
-.main-blog-fix-width{
-  width: 100%!important;
+.main-blog-fix-width {
+  width: 100% !important;
 }
 
-.blog-h1-weight{
-  font-family: 'Nunito Sans';
+.blog-h1-weight {
+  font-family: "Nunito Sans";
   font-size: 3rem;
   font-weight: 800;
   text-align: center;
 }
 
-.text-format-size-lineheigth{
+.text-format-size-lineheigth {
   font-size: 1.4rem;
-  font-family: 'Nunito Sans';
+  font-family: "Nunito Sans";
   text-align: justify;
 }
-.logo-five{
+.logo-five {
   width: 20%;
   border-radius: 20px;
 }
 
-.link-modif-home{
+.link-modif-home {
   font-size: 1.2rem;
   color: #cd8a5b;
   text-decoration: none;
   font-weight: 600;
 }
 
-.link-modif-home:hover{
+.link-modif-home:hover {
   color: #00adef;
   text-decoration: none;
   font-weight: 600;
