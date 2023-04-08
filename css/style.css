@@ -110,9 +110,14 @@ li a:hover {
   font-family: "Nunito Sans";
   text-align: justify;
 }
+.text-format-p{
+  font-size: 1.1rem;
+  font-family: "Nunito Sans";
+}
+
 .logo-five {
-  width: 20%;
-  border-radius: 20px;
+  width: 60%;
+  border-radius: 10px;
 }
 
 .link-modif-home {
@@ -125,6 +130,11 @@ li a:hover {
 .link-modif-home:hover {
   color: #00adef;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-menu-font{
+  font-family: "Nunito Sans";
   font-weight: 600;
 }
 

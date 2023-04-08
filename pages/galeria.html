@@ -24,9 +24,138 @@
   </head>
 
   <body>
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                ¡Completa tus datos aqui!
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Ejemplo@gmail.com">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Contacto Telefonico</label>
+                  <input class="form-control" id="inputPassword4" placeholder="Ej-381232425">
+                </div>
+                <div class="col-12">
+                  <label  class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control" placeholder="Ej-Cristiano Ronaldo">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Confirmo que acepto recibir notificaciones/Promociones por Email
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+                >
+                Cerrar
+              </button>
+              <button type="button" class="btn suscripcion">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="navbar navbar-expand-md navbar-expand-lg navbar-light fixed-top sticky-top py-3"
+    >
+      <div class="container">
+        <a href="../index.html">
+          <img src="../img/MOCK UP.png" alt="logo" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto justify-content-sm-center align-items-sm-center">
+            <li class="nav-item nav-menu-font">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../pages/galeria.html"
+                >Galeria</a
+              >
+            </li>
+            <li class="nav-item nav-menu-font">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../pages/nosotros.html"
+                >Acerca de nosotros</a
+              >
+            </li>
+            <li class="nav-item nav-menu-font">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../pages/contacto.html"
+                >Contactos</a
+              >
+            </li>
+            <li class="mx-1 mb-sm-1">
+              <button
+                type="button"
+                class="btn suscripcion btn-lg btn-sm active p-2 nav-menu-font"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Suscripción
+              </button>
+           </li>
+            <li class="mx-1 mb-sm-1 nav-menu-font">
+              <a
+                href="../pages/login.html"
+                class="btn btn-primary btn-lg btn-sm active p-2 nav-menu-font"
+                role="button"
+                aria-pressed="true"
+                >Iniciar sesión</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
       <div class="text-center pt-3">
         <h1>GALERIA</h1>
-        <p>Imagenes de los sectores mas visitados de Tucumán</p>
+        <p class="text-format-p">Imagenes de los sectores mas visitados de Tucumán</p>
       </div>
       <section class="galeria container">
       <div class="row">
@@ -140,13 +269,13 @@
               class="d-flex flex-column justify-content-center align-items-center p-3"
             >
               <h3>Seguinos!</h3>
-              <a href="./pages/error404page.html" class="link-modif-home"
+              <a href="../pages/error404page.html" class="link-modif-home"
                 >Youtube</a
               >
-              <a href="./pages/error404page.html" class="link-modif-home"
+              <a href="../pages/error404page.html" class="link-modif-home"
                 >Facebook</a
               >
-              <a href="./pages/error404page.html" class="link-modif-home"
+              <a href="../pages/error404page.html" class="link-modif-home"
                 >Instagram</a
               >
             </div>
@@ -154,8 +283,7 @@
           <div
             class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center"
           >
-            <p class="text-center">Powered by</p>
-            <img src="/img/FIVEVAGO.jpg" alt="logo-dev" class="logo-five p-2" />
+            <img src="../img/fivevagopoweredby.jpg" alt="logo-dev" class="logo-five p-2" />
           </div>
         </div>
       </div>
