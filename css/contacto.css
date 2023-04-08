@@ -1,0 +1,69 @@
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: #efe6e6;
+}
+
+.suscripcion {
+  background-color: #cd8a5b;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+.logo {
+  height: 48px;
+}
+
+.image {
+  width: 70%;
+  height: auto;
+}
+
+.bg {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.logo-contacto {
+  width: 20%;
+  height: auto;
+}
+
+.footer-contacto {
+  background: #efe6e6;
+}
+
+body {
+  background-image: url(../img/fondo1.jpg);
+}
+
+.bg-contact {
+  background-color: #cd8a5b;
+}
+.bg-form {
+  background-color: #f8f9fa;
+}
+
+.bg-map {
+  background-color: #f8f9fa;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
