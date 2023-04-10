@@ -32,60 +32,77 @@
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
       aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">
-                ¡Completa tus datos aqui!
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Ejemplo@gmail.com">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Contacto Telefonico</label>
-                  <input class="form-control" id="inputPassword4" placeholder="Ej-381232425">
-                </div>
-                <div class="col-12">
-                  <label  class="form-label">Nombre y Apellido</label>
-                  <input type="text" class="form-control" placeholder="Ej-Cristiano Ronaldo">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Confirmo que acepto recibir notificaciones/Promociones por Email
-                    </label>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              ¡Completa tus datos aqui!
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Ejemplo@gmail.com"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label"
+                  >Contacto Telefonico</label
                 >
-                Cerrar
-              </button>
-              <button type="button" class="btn suscripcion">
-                Enviar
-              </button>
-            </div>
+                <input
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Ej-381232425"
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Nombre y Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ej-Cristiano Ronaldo"
+                />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    Confirmo que acepto recibir notificaciones/Promociones por
+                    Email
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn suscripcion">Enviar</button>
           </div>
         </div>
       </div>
-    </div>  
+    </div>
     <nav
       class="navbar navbar-expand-md navbar-expand-lg navbar-light fixed-top sticky-top py-3"
     >
@@ -105,7 +122,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto justify-content-sm-center align-items-sm-center">
+          <ul
+            class="navbar-nav ms-auto justify-content-sm-center align-items-sm-center"
+          >
             <li class="nav-item nav-menu-font">
               <a
                 class="nav-link active"
@@ -139,7 +158,7 @@
               >
                 Suscripción
               </button>
-           </li>
+            </li>
             <li class="mx-1 mb-sm-1 nav-menu-font">
               <a
                 href="../pages/login.html"
@@ -153,53 +172,34 @@
         </div>
       </div>
     </nav>
-      <div class="text-center pt-3">
-        <h1>Galería</h1>
-        <p class="text-format-p">Imagenes de los sectores mas visitados de Tucumán</p>
-      </div>
-      <section class="galeria container">
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-12 m-sm-auto">    
-          <img
-            src="../img/cadillal.jpg"
-            alt="imagen"
-          />
+    <div class="text-center pt-3">
+      <h1>Galería</h1>
+      <p class="text-format-p">
+        Imagenes de los sectores mas visitados de Tucumán
+      </p>
+    </div>
+    <main class="galeria container">
+      <section class="row">
+        <div class="col-lg-3 col-md-4 col-sm-12 m-sm-auto">
+          <img src="../img/cadillal.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/aguaschiquitas.jpg"
-            alt="imagen"
-          />
+          <img src="../img/aguaschiquitas.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/casaHistorica.jpg"
-            alt="imagen"
-          />
+          <img src="../img/casaHistorica.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/orco molle.jpg"
-            alt="imagen"
-          />
+          <img src="../img/orco molle.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/san javier.jpg"
-            alt="imagen"
-          />
+          <img src="../img/san javier.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/tafi.jpg"
-            alt="imagen"
-          />
+          <img src="../img/tafi.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/villapadremonti.jpg"
-            alt="imagen"
-          />
+          <img src="../img/villapadremonti.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
           <img
@@ -220,16 +220,10 @@
           />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/turismo1.jpg"
-            alt="imagen"
-          />
+          <img src="../img/turismo1.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/sheratton.jpg"
-            alt="imagen"
-          />
+          <img src="../img/sheratton.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
           <img
@@ -244,10 +238,7 @@
           />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
-          <img
-            src="../img/R.jpg"
-            alt="imagen"
-          />
+          <img src="../img/R.jpg" alt="imagen" />
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12">
           <img
@@ -255,7 +246,8 @@
             alt="imagen"
           />
         </div>
-    </section>
+      </section>
+    </main>
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -283,7 +275,11 @@
           <div
             class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center"
           >
-            <img src="../img/fivevagopoweredby.jpg" alt="logo-dev" class="logo-five p-2" />
+            <img
+              src="../img/fivevagopoweredby.jpg"
+              alt="logo-dev"
+              class="logo-five p-2"
+            />
           </div>
         </div>
       </div>

@@ -32,56 +32,73 @@
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
       aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">
-                ¡Completa tus datos aqui!
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Ejemplo@gmail.com">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Contacto Telefonico</label>
-                  <input class="form-control" id="inputPassword4" placeholder="Ej-381232425">
-                </div>
-                <div class="col-12">
-                  <label  class="form-label">Nombre y Apellido</label>
-                  <input type="text" class="form-control" placeholder="Ej-Cristiano Ronaldo">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Confirmo que acepto recibir notificaciones/Promociones por Email
-                    </label>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              ¡Completa tus datos aqui!
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Ejemplo@gmail.com"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label"
+                  >Contacto Telefonico</label
                 >
-                Cerrar
-              </button>
-              <button type="button" class="btn suscripcion">
-                Enviar
-              </button>
-            </div>
+                <input
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Ej-381232425"
+                />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Nombre y Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ej-Cristiano Ronaldo"
+                />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    Confirmo que acepto recibir notificaciones/Promociones por
+                    Email
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn suscripcion">Enviar</button>
           </div>
         </div>
       </div>
@@ -105,7 +122,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto justify-content-sm-center align-items-sm-center">
+          <ul
+            class="navbar-nav ms-auto justify-content-sm-center align-items-sm-center"
+          >
             <li class="nav-item nav-menu-font">
               <a
                 class="nav-link active"
@@ -139,7 +158,7 @@
               >
                 Suscripción
               </button>
-           </li>
+            </li>
             <li class="mx-1 mb-sm-1 nav-menu-font">
               <a
                 href="../pages/login.html"
@@ -153,156 +172,192 @@
         </div>
       </div>
     </nav>
-    <header class="mt-0">
-      <h1 class="fw-bolder p-4">Quienes somos</h1>
-      <p class="fw-bolder px-4">
-        Grupo de estudiantes de Rolling Code School, Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Accusamus obcaecati adipisci explicabo ab
-        dolorem nam numquam qui, facilis expedita in accusantium reiciendis
-        recusandae saepe praesentium suscipit nostrum maiores quisquam enim!
-      </p>
+    <header
+      class="mt-0 d-flex flex-column align-items-center justify-content-center"
+    >
+      <div class="container bg-light">
+        <h1 class="p-4">¿Quienes somos?</h1>
+        <p class="fw-bolder px-4">
+          Grupo de estudiantes de Rolling Code School, Lorem ipsum, dolor sit
+          amet consectetur adipisicing elit. Accusamus obcaecati adipisci
+          explicabo ab dolorem nam numquam qui, facilis expedita in accusantium
+          reiciendis recusandae saepe praesentium suscipit nostrum maiores
+          quisquam enim!
+        </p>
+      </div>
     </header>
-    <section class="m-lg-5">
-      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
-        <div class="row text-center">
-          <div class="col-md-5 col-lg-5 ">
-            <img
-              class="rounded-circle rounded-2 p-3 image"
-              src="../img/4.jpeg"
-              class="img-fluid rounded-start"
-              alt="imagen de perfil"
-            />
-            <h2 class="fs-6 text-center">Facundo Kameyha</h2>
-          </div>
-          <div class="col-md-7 col-lg-7">
-            <div class="card-body m-md-4 m-sm-1">
-              <p class="card-text fw-bolder">
-                Estudiante de Ingenieria en Computación
-              </p>
-              <p class="card-text fw-bolder">
-                Estudiante de Rolling Code School
-              </p>
-              <div>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a class="m-2" href=""
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+    <main class="w-100">
+      <section class="d-flex flex-column align-items-center">
+        <article class="card m-3 m-lg-5 text-center perfil-nosotros">
+          <div class="row text-center">
+            <div class="col-md-5 col-lg-5">
+              <img
+                class="rounded-circle rounded-2 p-3 image"
+                src="../img/4.jpeg"
+                class="img-fluid rounded-start"
+                alt="imagen de perfil"
+              />
+              <h2 class="fs-6 text-center">Facundo Kameyha</h2>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <div
+                class="card-body h-100 d-flex flex-column justify-content-center"
+              >
+                <p class="card-text fw-bolder">
+                  Estudiante de Ingenieria en Computación
+                </p>
+                <p class="card-text fw-bolder">
+                  Estudiante de Rolling Code School
+                </p>
+                <div>
+                  <a
+                    class="m-2"
+                    href="https://github.com/KameyhaFacundo"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a class="m-2" href="#" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    class="m-2"
+                    href="https://github.com/KameyhaFacundo"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
 
-      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
-        <div class="row text-center">
-          <div class="col-md-5 col-lg-5">
-            <img
-              class="rounded-circle rounded-2 p-3 image"
-              src="../img/nacho.jpeg"
-              class="img-fluid rounded-start"
-              alt="imagen de perfil"
-            />
-            <h2 class="fs-6 text-center">Ignacio Brandan</h2>
-          </div>
-          <div class="col-md-7 col-lg-7">
-            <div class="card-body m-md-4 m-sm-1">
-              <p class="card-text fw-bolder">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium quibusdam, blanditiis natus esse eaque commodi
-                incidunt, enim sapiente facere eos laudantium tenetur iure
-                cumque veniam eligendi pariatur numquam perferendis mollitia!
-              </p>
-              <div>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a class="m-2" href=""
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+        <article class="card m-3 m-lg-5 text-center perfil-nosotros">
+          <div class="row text-center">
+            <div class="col-md-5 col-lg-5">
+              <img
+                class="rounded-circle rounded-2 p-3 image"
+                src="../img/nacho.jpeg"
+                class="img-fluid rounded-start"
+                alt="imagen de perfil"
+              />
+              <h2 class="fs-6 text-center">Ignacio Brandan</h2>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <div
+                class="card-body h-100 d-flex flex-column justify-content-center"
+              >
+                <div>
+                  <a
+                    class="m-2"
+                    href="https://github.com/Ibrandandev"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a
+                    class="m-2"
+                    href="https://www.instagram.com/ignaciobrandanok/"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    class="m-2"
+                    href="https://www.linkedin.com/in/ignacio-brandan/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
 
-      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
-        <div class="row text-center">
-          <div class="col-md-5 col-lg-5">
-            <img
-              class="rounded-circle rounded-2 p-3 image"
-              src="../img/jony.jpeg"
-              class="img-fluid rounded-start"
-              alt="..."
-            />
-            <h2 class="fs-6 text-center">Jonathan Tello</h2>
-          </div>
-          <div class="col-md-7 col-lg-7">
-            <div class="card-body m-md-4 m-sm-1">
-              <p class="card-text fw-bolder">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium quibusdam, blanditiis natus esse eaque commodi
-                incidunt, enim sapiente facere eos laudantium tenetur iure
-                cumque veniam eligendi pariatur numquam perferendis mollitia!
-              </p>
-              <div>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a class="m-2" href=""
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+        <article class="card m-3 m-lg-5 text-center perfil-nosotros">
+          <div class="row text-center">
+            <div class="col-md-5 col-lg-5">
+              <img
+                class="rounded-circle rounded-2 p-3 image"
+                src="../img/jony.jpeg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+              <h2 class="fs-6 text-center">Jonathan Tello</h2>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <div
+                class="card-body h-100 d-flex flex-column justify-content-center"
+              >
+                <p class="card-text fw-bolder">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium quibusdam, blanditiis natus esse eaque commodi
+                  incidunt, enim sapiente facere eos laudantium tenetur iure
+                  cumque veniam eligendi pariatur numquam perferendis mollitia!
+                </p>
+                <div>
+                  <a
+                    class="m-2"
+                    href="https://github.com/KameyhaFacundo"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a class="m-2" href="#" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    class="m-2"
+                    href="https://github.com/KameyhaFacundo"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
 
-      <div class="card m-3 m-lg-5 text-center perfil-nosotros">
-        <div class="row text-center">
-          <div class="col-md-5 col-lg-5">
-            <img
-              class="rounded-circle rounded-2 p-3 image"
-              src="../img/matias.jpeg"
-              class="img-fluid rounded-start"
-              alt="imagen de perfil"
-            />
-            <h2 class="fs-6 text-center">Matias Ortega</h2>
-          </div>
-          <div class="col-md-7 col-lg-7">
-            <div class="card-body m-md-4 m-sm-1">
-              <p class="card-text fw-bolder">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium quibusdam, blanditiis natus esse eaque commodi
-                incidunt, enim sapiente facere eos laudantium tenetur iure
-                cumque veniam eligendi pariatur numquam perferendis mollitia!
-              </p>
-              <div>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a class="m-2" href=""
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-                <a class="m-2" href="https://github.com/KameyhaFacundo"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
+        <article class="card m-3 m-lg-5 text-center perfil-nosotros">
+          <div class="row text-center">
+            <div class="col-md-5 col-lg-5">
+              <img
+                class="rounded-circle rounded-2 p-3 image"
+                src="../img/matias.jpeg"
+                class="img-fluid rounded-start"
+                alt="imagen de perfil"
+              />
+              <h2 class="fs-6 text-center">Matias Ortega</h2>
+            </div>
+            <div class="col-md-7 col-lg-7">
+              <div
+                class="card-body h-100 d-flex flex-column justify-content-center"
+              >
+                <p class="card-text fw-bolder">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium quibusdam, blanditiis natus esse eaque commodi
+                  incidunt, enim sapiente facere eos laudantium tenetur iure
+                  cumque veniam eligendi pariatur numquam perferendis mollitia!
+                </p>
+                <div>
+                  <a
+                    class="m-2"
+                    href="https://github.com/KameyhaFacundo"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a class="m-2" href="#" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    class="m-2"
+                    href="https://github.com/KameyhaFacundo"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </article>
+      </section>
+    </main>
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -330,7 +385,11 @@
           <div
             class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center"
           >
-            <img src="../img/fivevagopoweredby.jpg" alt="logo-dev" class="logo-five p-2" />
+            <img
+              src="../img/fivevagopoweredby.jpg"
+              alt="logo-dev"
+              class="logo-five p-2"
+            />
           </div>
         </div>
       </div>
