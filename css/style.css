@@ -37,6 +37,10 @@ li a:hover {
   height: 50vh;
 }
 
+.mx-h-280 {
+  max-height: 280px;
+}
+
 .commercial {
   height: 500px;
 }
