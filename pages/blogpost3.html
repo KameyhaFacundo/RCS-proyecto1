@@ -410,6 +410,36 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Siguiente</span>
         </button>
+        <section
+          class="form-review d-flex flex-column flex-lg-row gap-3 mx-auto mt-3"
+        >
+          <div class="group">
+            <label for="customRange3" class="form-label"
+              >Nombre de Usuario</label
+            >
+            <input type="text" class="form-control" />
+          </div>
+          <div class="group">
+            <label for="customRange3" class="form-label">Valoracion</label>
+            <input
+              type="range"
+              class="form-range mt-2"
+              min="0"
+              max="5"
+              step="1"
+              id="customRange3"
+            />
+          </div>
+        </section>
+        <section class="form-floating form-review mx-auto mt-3">
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="floatingTextarea2"
+            style="height: 100px"
+          ></textarea>
+          <label for="floatingTextarea2">Agregar Nuevo comentario</label>
+        </section>
       </section>
     </main>
 
