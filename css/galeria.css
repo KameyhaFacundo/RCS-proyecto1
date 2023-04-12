@@ -4,13 +4,13 @@
 }
 
 .galeria .col-lg-3 {
-  margin: 0 !important;
   padding: 4px;
 }
 
 .galeria img {
   width: 100%;
   height: 250px;
+  transition: all 0.2s;
 }
 
 .galeria img:hover {

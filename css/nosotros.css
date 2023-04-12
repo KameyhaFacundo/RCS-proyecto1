@@ -19,6 +19,14 @@ header {
   background-size: cover;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: #00adef;
+}
+
 @media screen and (min-width: 768px) {
   .image {
     width: 100%;
